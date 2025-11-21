@@ -2,6 +2,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Showcase from "@/components/Showcase";
 import Packages from "@/components/Packages";
+import Whyus from "@/components/Whyus";
+import Comparison from "@/components/Comparison";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <Hero />
       <Showcase />
       <Packages />
+      <Whyus />
+      <Comparison />
     </>
   );
 }
